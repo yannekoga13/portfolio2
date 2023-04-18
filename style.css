@@ -1,0 +1,710 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 29 janv. 2023, 21:39:59
+    Author     : yanne
+*/
+
+*
+{
+   
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+header, footer {
+  background-color:#D3D3D3 ;
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+  
+}
+header nav ul li
+{
+    float: left;
+    display:inline-block;
+    display: flex; 
+    order:initial;
+    font-weight: bold;
+    margin-right: 20px;
+    
+}
+
+a{
+    color:black;
+    font-style: italic;
+    
+}
+header nav{
+    float: right;
+    
+}
+#img{
+    background-image: url(image/portable.png);
+    position:relative;
+     margin-top: auto;
+     
+      
+}
+    
+#img #content {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    text-align: center;
+    
+}
+#nom{
+    font-size: 36px; 
+    font-weight: bold; 
+}
+#statut{
+    font-size: 24px; 
+}  
+#contenant{
+    border: 2px solid turquoise; 
+    padding: 10px; 
+    border-radius: 20px;
+    background-color: #2B112F;
+    opacity:0.9;
+}
+#about h2{
+    font-style: italic;
+    font-family: Serif, Times New Roman;
+    color:black;
+    margin: 20px;
+}
+#about_plan a {
+     color: black;
+     padding: 0;
+     
+}
+#about_plan {
+    float: right;
+}
+
+#about{
+    background-color: white;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+  
+}
+
+
+.profil-picture {
+  width: 200px;
+  height: 200px;
+  border: 10px solid #333;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+  display: flex;
+  margin: 20px;
+}
+
+.profil-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tables-container1 tr th {
+    background-color: white;
+    border: #fff;
+    display: inline-block;
+    float: left;
+}
+.tables-container1 p{
+   display: flex;
+    text-transform: uppercase;
+    order:initial;
+    font-weight: bold;
+    margin-right: 20px;
+    height: 30px;
+    
+   
+}
+
+ /*section compétence*/
+ 
+.comp{
+    background-color: white;
+    height: 500px;
+    margin: 0px;
+    padding:0;
+    
+}
+
+.comp h2{
+    font-style: italic;
+    font-family: Serif, Times New Roman;
+    color: black;
+    margin: 20px;
+}
+
+.tables-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+ 
+
+.table1, .table2, .table3 {
+   width: 200px;
+   float: none;
+   margin: 10px;
+}
+
+.table1{
+    width:300px;
+    height: 200px;
+}
+.table2{
+    width:300px;
+    height: 200px;
+}
+
+.table3{
+    width: 300px;
+    height: 200px;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+  display: inline-table;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #ddd;
+}
+
+table td:hover::before {
+  content: attr(data-percentage) '%'; /* Récupère la valeur du data-attribut */
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 5px;
+}
+
+
+/*mes diplomes**/
+
+.screen {
+  width: 100%;
+  height: 530px;
+  padding: 0px 0;
+  text-align: center;
+  background-color: white;
+  margin: 0;
+  
+  
+}
+.screen h2 {
+    font-style: italic;
+    font-family: Serif, Times New Roman;
+    color:black;
+    margin: 20px;
+    display: flex;
+    float:left;
+    margin-top: 20px;
+}
+
+
+#qualifContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#qualifContent h2{
+    font-size: 28px;
+}
+.qualifText p{
+    font-size: 15px;
+}
+.qualif {
+  width: 30%;
+  margin: 30px 30px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #999;
+  position: relative;
+  text-align: left;
+}
+
+.qualif h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+ /*mes projets*/
+
+#projects-x {
+   
+   background-color: white;
+   margin: 0;
+   padding: 0;
+   
+}
+
+#projects-x h2 {
+    font-style: italic;
+    font-family: Serif, Times New Roman;
+    color:black;
+    margin: 20px;
+}
+#projects h2 {
+    font-style: italic;
+    font-family: Serif, Times New Roman;
+    color:black;
+    
+}
+
+.screen1 {
+  padding: 50px 0;
+  
+  height: 900px;
+  
+}
+
+.row-hidden-portfolioGroup-screenCenterContent-max-w-1400 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  float: left;
+  padding: 10px;
+}
+
+.screenCenterContent {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.portfolioCard {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin: 20px;
+ 
+}
+
+.portfolioCard:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transform: translateY(-10px);
+}
+
+.portfolioCard-header1 {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.portfolioCard-header1 h2 {
+  font-size: 24px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.portfolioCard-spacer {
+  height: 20px;
+}
+
+.portfolioCard-content {
+  padding: 20px;
+}
+
+.flip-image {
+  text-align: center;
+}
+
+.flip-image img {
+  width: 100%;
+}
+
+.flip-content1 {
+  text-align: left;
+}
+
+.flip-content1 p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.p-spacer-under {
+  margin-bottom: 20px;
+}
+
+.portfolioCard-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+  
+}
+
+.portfolioCard-footer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.portfolioCard-footer-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.htmlCaps {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.portfolioCard-footer li a {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/*me contacter*/
+
+#contact-x{
+    background-color: white;
+}
+#contact h2{
+   font-style: italic;
+    font-family: Serif, Times New Roman;
+    color:black;
+    margin: 20px;
+}
+.formulaire-x{
+   background-color: #D3D3D3;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 10px;
+}
+.formulaire-x h4{
+  margin: 5px;
+  padding: 20px;
+}
+#contact-x .required, b span{
+    color: grey;
+    font-style: italic;
+}
+#contenant1 .id{
+  color:black;
+}
+#contact-x p{
+   font-style: italic; 
+}
+
+.formulaire-x p{
+    font-style: italic;
+    font-size: 10px;
+}
+
+.fiche1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nom-x, .prenom-x, .email-x, .telephone-x, .country-x {
+  font-weight: bold;
+}
+#country{
+   padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;  
+}
+
+input[type=text] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+input[type=mail] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+input[type=tel] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  resize: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-media img {
+  margin: 0 10px;
+}
+#contenant1{
+    border: 2px solid grey; 
+    padding: 20px; 
+    border-radius: 20px;
+    background-color: white;
+    opacity:0.9;
+    width:200px;
+    height: 40px;
+    display: flex;
+    
+    align-items: center;
+    float: left;
+}
+#error-nom, #error-prenom, #error-email, #error-message, #error-pays{
+    color: red;
+    font-size: 12px;
+}
+#contenant2{
+  border: 2px solid grey; 
+  padding: 20px; 
+  border-radius: 20px;
+  background-color: white;
+  opacity:0.9;
+  width:200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+#social-media1, #mon_cv{
+  display:block;
+  margin-right: 5px;
+}
+ 
+ /*logo*/
+ 
+#mon-logo{
+   display: flex;
+   align-items: center;
+ }
+
+.navbar-brand {
+    text-decoration: none;
+ }
+#navbar-brand img {
+    width: 100px; 
+    height: 100px;
+}
+
+    
+/*footer*/
+
+footer {
+    text-align: center;
+    padding: 35px;
+    
+}
+footer p{
+    color: black;
+}
+
+/*presentation2*/
+
+.card {
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  margin: 20px;
+  padding: 20px;
+  width: 800px;
+  background-color: rgb(214, 215, 216);
+}
+.card nav ul li{
+    float:left;
+    display:flex;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+
+}
+
+.card-text {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+#about_plan nav ul li{
+    float: left;
+    display:inline-block;
+    display: flex;
+    text-transform: uppercase;
+    order:initial;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 13px;
+    font-style: italic;
+    justify-content: flex-end;
+}
+
+/*partie langue*/
+
+#flag .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#flag .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#flag img{
+    padding: 20px;
+}
+#flag .fr, .en{
+    font-style: italic;
+    font-size:14px;
+    display: grid;
+    text-shadow: 2px 2px 5px red;
+}
+#flag p{
+    padding: 10px;
+}
+
+/*personnalite*/
+
+#personnalite {
+ font-family: Arial, sans-serif;
+}
+
+#personnalite .card {
+  border: 1px solid #81d1b6;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#personnalite .card h3 {
+  margin-top: 0;
+  padding:5px;
+  font-style: oblique;
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+  font-size: 20px;
+}
+
+#personnalite .card-body {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+/*loisir*/
+
+#loisir {
+  
+  
+  font-family: Arial, sans-serif;
+}
+
+#loisir.card {
+  border: 1px solid #81d1b6;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#loisir .card h3 {
+  margin-top: 0;
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+  font-size: 20px;
+}
+
+#loisir .card-body {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/*projet travel agency*/
+
+#travel-description{
+  height:auto ;
+}
+
+/*projet portfolio*/
+
+#pf-description{
+  height:550px ;
+}
+
+/*projet  bibliotheque*/
+
+#bibliotheque-description{
+  height:550px ;
+}
+
+/*projet  glpi*/
+
+#glpi-description{
+  height:550px ;
+}
+
+/*projet  Oc Pizza*/
+
+#pizza-description{
+  height:550px ;
+}
